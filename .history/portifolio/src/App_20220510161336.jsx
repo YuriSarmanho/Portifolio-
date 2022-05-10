@@ -6,8 +6,6 @@ import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
 import Nav from "./Components/Nav/Nav";
 import Testimonials from "./Components/Testimonials/Testimonials";
-import Service from "./Components/Service/Service";
-import Portifolio from "./Components/Portifolio/Portifolio";
 
 
 
@@ -18,11 +16,10 @@ const App = () => {
       <Nav/>
       <About />
       <Experience/>
-      <Service/>
-      <Portifolio/>
-      <Testimonials/>
       <Contact/>
       <Footer/>
+      <Testimonials/>
+
     </>
   );
 };

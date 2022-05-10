@@ -18,11 +18,11 @@ const App = () => {
       <Nav/>
       <About />
       <Experience/>
-      <Service/>
-      <Portifolio/>
-      <Testimonials/>
       <Contact/>
       <Footer/>
+      <Testimonials/>
+      <Service/>
+      
     </>
   );
 };
