@@ -113,7 +113,7 @@ a:hover{
     .container{
         width: var(--container-width-sm);
     }
-    section > h2{
+    section{
         margin-bottom: 2rem;
     }
 }
