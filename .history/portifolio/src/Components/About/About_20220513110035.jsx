@@ -1,9 +1,8 @@
 import React from 'react'
-import './About.css'
-
+import ''
 const About = () => {
   return (
-    <section id='about'>About</section>
+    <section>About</section>
   )
 }
 
