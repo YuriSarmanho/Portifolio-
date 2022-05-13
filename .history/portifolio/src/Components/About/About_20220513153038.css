@@ -25,11 +25,11 @@
   transition: var(--transition);
 }
 
-.about__me-image:hover {
+/* .about__me-image:hover {
   transform: rotate(0);
 }
 .about__cards {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
@@ -96,4 +96,4 @@
     .about__container p{
         margin: 1.5rem;
     }
-  }
+  } */

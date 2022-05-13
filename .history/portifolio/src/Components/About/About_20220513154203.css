@@ -29,12 +29,13 @@
   transform: rotate(0);
 }
 .about__cards {
-  display:grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
-.about__card {
+/* .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
@@ -64,7 +65,7 @@
 .about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
-}
+} */
 
 /*MEDIUM DEVICE*/
 @media screen and (max-width: 1024px) {

@@ -39,15 +39,6 @@ const About = () => {
               <small>80+ Completed</small>
             </article>
           </div>
-          <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-              aspernatur ab fugit minima consequatur perferendis omnis, quaerat
-              repellat quidem nam nemo possimus illum facilis, molestias
-              repellendus. Assumenda distinctio eveniet dolores.
-            </p>
-            <a href="#contact" className='btn btn-primary'>
-              Lets talk
-            </a>  
         </div>
       </div>
     </section>

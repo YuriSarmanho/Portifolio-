@@ -28,8 +28,8 @@
 .about__me-image:hover {
   transform: rotate(0);
 }
-.about__cards {
-  display:grid;
+/* .about__cards {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
@@ -64,7 +64,7 @@
 .about__content p{
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
-}
+} */
 
 /*MEDIUM DEVICE*/
 @media screen and (max-width: 1024px) {

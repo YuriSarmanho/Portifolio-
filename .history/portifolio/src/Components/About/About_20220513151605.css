@@ -18,7 +18,7 @@
   place-content: center;
 }
 
-.about__me-image {
+.aboutme__me-image {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
@@ -29,7 +29,7 @@
   transform: rotate(0);
 }
 .about__cards {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
@@ -86,14 +86,5 @@
         width: 65%;
         margin: 0 auto 3rem;
     }
-    .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
-    .about__content{
-        text-align: center;
-    }
-    .about__container p{
-        margin: 1.5rem;
-    }
+    .about__card
   }
