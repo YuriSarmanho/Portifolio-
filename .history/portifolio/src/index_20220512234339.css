@@ -94,7 +94,7 @@ a:hover{
 
 .btn-primary{
     background-color: var(--color-primary);
-    color: var(--color-bg);
+    color: var(colo);
 }
 
 img{

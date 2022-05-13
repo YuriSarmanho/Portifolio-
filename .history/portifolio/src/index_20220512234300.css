@@ -94,13 +94,13 @@ a:hover{
 
 .btn-primary{
     background-color: var(--color-primary);
-    color: var(--color-bg);
+     object-fit: cover; 
 }
 
 img{
   display: block;
   width: 100%;
-  object-fit: cover;
+  
 }
 
 /*MEDIUM DEVICE*/
