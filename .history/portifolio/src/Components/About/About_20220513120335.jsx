@@ -44,9 +44,7 @@ const About = () => {
               repellat quidem nam nemo possimus illum facilis, molestias
               repellendus. Assumenda distinctio eveniet dolores.
             </p>
-            <a href="#contact" className="btn btn-primary">
-              Lets talk
-            </a>
+            <a href=""></a>
           </div>
         </div>
       </div>
