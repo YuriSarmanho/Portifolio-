@@ -8,7 +8,7 @@ import "./Nav.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  //Refatorar essa parte dps que acabar o projeto
+  
   return (
     <nav>
       <a

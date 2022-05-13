@@ -8,7 +8,7 @@ import "./Nav.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  //Refatorar essa parte dps que acabar o projeto
+
   return (
     <nav>
       <a
@@ -18,32 +18,20 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
+      <a href="#about"
+      onClick={() => setActiveNav("#")}
+      className={activeNav === "#" ? "active" : ""}>
         <AiOutlineUser />
       </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
+      <a href="#experience"
+      onClick={() => setActiveNav("#")}
+      className={activeNav === "#" ? "active" : ""}>
         <BiBookAlt />
       </a>
-      <a
-        href="#service"
-        onClick={() => setActiveNav("#service")}
-        className={activeNav === "#service" ? "active" : ""}
-      >
+      <a href="#service">
         <RiServiceLine />
       </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
+      <a href="#contact">
         <BiMessageSquareDetail />
       </a>
     </nav>
