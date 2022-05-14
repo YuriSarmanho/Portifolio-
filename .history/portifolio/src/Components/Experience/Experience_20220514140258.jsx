@@ -71,6 +71,7 @@ const experience = () => {
             <h4>Python</h4>
             <small className="text-light">Experienced</small>
           </div>
+          </div>
         </div>
       </div>
     </section>

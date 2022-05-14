@@ -58,7 +58,7 @@ const experience = () => {
           </div>
           <div className="experience__content">
             <BsFillPatchCheckFill />
-            <h4>MySQL</h4>
+            <h4>MySql</h4>
             <small className="text-light">Experienced</small>
           </div>
           <div className="experience__content">
@@ -68,7 +68,12 @@ const experience = () => {
           </div>
           <div className="experience__content">
             <BsFillPatchCheckFill />
-            <h4>Python</h4>
+            <h4>Tailwind</h4>
+            <small className="text-light">Experienced</small>
+          </div>
+          <div className="experience__content">
+            <BsFillPatchCheckFill />
+            <h4>React</h4>
             <small className="text-light">Experienced</small>
           </div>
         </div>

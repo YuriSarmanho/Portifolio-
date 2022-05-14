@@ -71,6 +71,11 @@ const experience = () => {
             <h4>Python</h4>
             <small className="text-light">Experienced</small>
           </div>
+          <div className="experience__content">
+            <BsFillPatchCheckFill />
+            <h4>React</h4>
+            <small className="text-light">Experienced</small>
+          </div>
         </div>
       </div>
     </section>
