@@ -55,15 +55,8 @@ service__list li{
       grid-template-columns: 1fr 1fr;
       gap: 2rem;
   }
-  .service{
-      height: auto;
-  }
 }
   
   /*SMALL DEVICE*/
   @media screen and (max-width: 600px) {
-    .service__container{
-        grid-template-columns: 1fr;
-        grid-area: 1.5rem ;
-    }
-}
+  }

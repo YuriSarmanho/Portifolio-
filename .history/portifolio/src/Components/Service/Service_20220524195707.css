@@ -62,8 +62,4 @@ service__list li{
   
   /*SMALL DEVICE*/
   @media screen and (max-width: 600px) {
-    .service__container{
-        grid-template-columns: 1fr;
-        grid-area: 1.5rem ;
-    }
-}
+  }

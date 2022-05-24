@@ -51,19 +51,15 @@ service__list li{
 
 /*MEDIUM DEVICE*/
 @media screen and (max-width: 1024px) {
-  .service__container{
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
   }
-  .service{
-      height: auto;
-  }
-}
   
   /*SMALL DEVICE*/
   @media screen and (max-width: 600px) {
-    .service__container{
-        grid-template-columns: 1fr;
-        grid-area: 1.5rem ;
+    .experience__container {
+      gap: 1rem;
     }
-}
+    .experience__container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  }
