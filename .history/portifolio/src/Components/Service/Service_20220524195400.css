@@ -44,9 +44,3 @@ service__list li{
     color: var(--color-primary);
     margin-top: 2px;
 }
-
-.service__list p{
-    font-size: 0.9rem;
-}
-
-
