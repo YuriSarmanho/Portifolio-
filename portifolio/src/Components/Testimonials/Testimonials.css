@@ -3,6 +3,9 @@
     padding-bottom: 4rem;
 }
 
+.swipe-pagination-clickable .swipe-pagination-bullet-active{
+    color: var(--color-primary);
+}
 .client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
