@@ -58,15 +58,23 @@ input,textarea{
 
 /*MEDIUM DEVICE*/
 @media screen and (max-width: 1024px) {
-    .container.contact__container{
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
+    
 }
 
 /*SMALL DEVICE*/
 @media screen and (max-width: 600px) {
-    .container.contact__container{
-        width: var(--container-with-sm);
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about__container p{
+        margin: 1.5rem;
     }
   }

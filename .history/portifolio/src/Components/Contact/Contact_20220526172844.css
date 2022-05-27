@@ -53,20 +53,5 @@ input,textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: var(--color-);
 }
-
-/*MEDIUM DEVICE*/
-@media screen and (max-width: 1024px) {
-    .container.contact__container{
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-}
-
-/*SMALL DEVICE*/
-@media screen and (max-width: 600px) {
-    .container.contact__container{
-        width: var(--container-with-sm);
-    }
-  }

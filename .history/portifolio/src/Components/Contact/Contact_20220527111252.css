@@ -67,6 +67,6 @@ input,textarea{
 /*SMALL DEVICE*/
 @media screen and (max-width: 600px) {
     .container.contact__container{
-        width: var(--container-with-sm);
+        grid-template-columns: 1fr;
     }
   }
